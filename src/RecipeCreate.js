@@ -29,7 +29,7 @@ function RecipeCreate({ addRec }) {
 
   return (
     <form name="create" onSubmit={handleSubmit} style={{ width: "100%" }}>
-      <table >
+      <table style={{ width: "100%" }}>
       <thead>
           <tr>
             <th>Name</th>

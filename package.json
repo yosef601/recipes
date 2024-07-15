@@ -2,7 +2,7 @@
   "name": "getting-started-with-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yosef601.github.io/recipes",
+  "homepage": "https://yosef601.github.io/recipes/1",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
