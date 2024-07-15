@@ -1,38 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display+SC');
+
 .App {
+  padding: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+h1 {
+  font-family: 'Playfair Display SC','pen Sans';
+  font-size: 64px;
+  padding: 10px;
+  text-align: center;
+}
+header {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  object-fit: contain;
+  width : 100%;
+  height: 100%;
+}
+/* typography */
+
+html {
+  font-family: 'helvetica neue', sans-serif;
+}
+
+thead th, tfoot th {
+  font-family: 'Rock Salt';
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+th {
+  letter-spacing: 2px;
+  padding: 10px;
+ 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+tr:nth-child(odd) {
+  background-color: #fff0c7;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+td {
+  letter-spacing: 1px;
+  overflow-x:hidden;
+  overflow-y:hidden;
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+/* table */
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  overflow:hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content_td p {
+  max-width: 100%;
+  max-height: 100px;
+  overflow-y: auto;
+  text-overflow: ellipsis;
 }
+
+form table td {
+  padding: 8px;
+  vertical-align: top;
+}
+
+form table td label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+form table td textarea {
+  resize: vertical;
+  height: 50px; /* Adjust height as needed */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+
+th {
+  background-color: white;
+}
+
+.content_td {
+  max-width: 200px; /* Adjust as needed */
+  word-wrap: break-word;
+  width: 30%;
+}
+
+img {
+  max-width: 100px;
+  height: auto;
+}
+
+/* Column Size for thead */
+
+
+/* Column size for tbody */
